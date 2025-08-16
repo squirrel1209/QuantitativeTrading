@@ -62,11 +62,11 @@ os.makedirs(output_dir, exist_ok=True)
 # 抓取資料
 reststock = sdk.marketdata.rest_client.stock  
 data = reststock.historical.candles(
-    **{"symbol": "0050", "from": "2023-02-06", "to": "2023-02-08"}
+    **{"symbol": "0050", "from": "2024-02-06", "to": "2024-08-08"}
 )
 
 # 寫成 JSON 檔
-json_path = os.path.join(output_dir, "0050_candles.json")
+json_path = os.path.join(output_dir, "0050_future.json")
 with open(json_path, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
