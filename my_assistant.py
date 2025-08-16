@@ -23,7 +23,7 @@ print("密碼:", pwd)
 
 # %%
 
-from fubon_neo.sdk import FubonSDK
+from fubon_neo.sdk import FubonSDK, Order
 # 連接主機
 print("connecteing...")
 sdk = FubonSDK(url="wss://neoapitest.fbs.com.tw/TASP/XCPXWS")
@@ -51,7 +51,28 @@ for account in accounts:
 if active_account is not None:
     print(f"當前使用帳號\n{active_account}")
     
-#%%
+# 行情
+
+sdk.init_realtime() # 建立行情連線
+
+# 建立輸出資料夾
+output_dir = "output"
+os.makedirs(output_dir, exist_ok=True)
+
+# 抓取資料
+reststock = sdk.marketdata.rest_client.stock  
+data = reststock.historical.candles(
+    **{"symbol": "0050", "from": "2023-02-06", "to": "2023-02-08"}
+)
+
+# 寫成 JSON 檔
+json_path = os.path.join(output_dir, "0050_candles.json")
+with open(json_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"✅ 已輸出到 {json_path}")
+
+
 import pandas as pd
 import numpy as np
 
@@ -68,13 +89,6 @@ trade_df.replace(r'^\s*$', np.nan, regex=True, inplace=True)
 if (trade_df['target_lot'].astype(int)<0).any():
     raise Exception(f"目標張數不能為負數")
 
-#%%
-# 建立行情連線
-sdk.init_realtime()
-reststock = sdk.marketdata.rest_client.stock
-reststock.on('message', recvRTData)                    # 將real time資料給處理的 function
-
-reststock.connect()                                    # 建立websocket連線
 
 # 建立市場別對應代號字典
 tickers = {}

@@ -104,3 +104,17 @@ Result {
   data: None
 }
 [2025-07-27 16:54:32,801:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-08-16 13:22:03,458:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: The cert file location my be wrong 46,
+  data: None
+}
+[2025-08-16 13:22:03,495:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-08-16 13:28:05,895:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-08-16 13:28:05,910:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證

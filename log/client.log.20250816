@@ -1,0 +1,63 @@
+[2025-08-16 13:22:03.458555500 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:22:54.534199 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:23:25.199328400 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:25:21.290188300 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:27:24.551133400 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:27:24.607163400 +08:00 INFO] this account require 2fa
+[2025-08-16 13:27:24.692795700 +08:00 INFO] [future_option_mapping]: 56.2959ms
+[2025-08-16 13:27:24.714422700 +08:00 INFO] [future_option_mapping]: 17.727ms
+[2025-08-16 13:27:24.831763200 +08:00 INFO] [future_option_mapping]: 114.4714ms
+[2025-08-16 13:27:24.916853400 +08:00 INFO] [future_option_mapping]: 73.9052ms
+[2025-08-16 13:28:05.878839800 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:32:50.867521800 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:32:50.899433 +08:00 INFO] this account require 2fa
+[2025-08-16 13:32:50.980687600 +08:00 INFO] [future_option_mapping]: 50.4362ms
+[2025-08-16 13:32:51.008016200 +08:00 INFO] [future_option_mapping]: 23.9863ms
+[2025-08-16 13:32:51.122632500 +08:00 INFO] [future_option_mapping]: 113.8148ms
+[2025-08-16 13:32:51.194958200 +08:00 INFO] [future_option_mapping]: 63.398ms
+[2025-08-16 13:32:52.766827900 +08:00 INFO] [get inventories] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" }
+[2025-08-16 13:32:52.807813 +08:00 INFO] [inventory_result]: 40.9416ms
+[2025-08-16 13:32:52.815759500 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Sell, stock_no: "2881", price_type: Market, price: None, quantity: 495000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:32:52.854179900 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "2303", price_type: Limit, price: Some("46.5"), quantity: 2000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:32:52.882394100 +08:00 INFO] [place_order]: 28.2496ms
+[2025-08-16 13:32:52.886355500 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "1101", price_type: Limit, price: Some("23.7"), quantity: 1000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:32:52.913268500 +08:00 INFO] [place_order]: 26.9088ms
+[2025-08-16 13:35:14.281493700 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:35:14.365826100 +08:00 INFO] this account require 2fa
+[2025-08-16 13:35:14.507118400 +08:00 INFO] [future_option_mapping]: 96.052ms
+[2025-08-16 13:35:14.535412100 +08:00 INFO] [future_option_mapping]: 24.8887ms
+[2025-08-16 13:35:14.733187400 +08:00 INFO] [future_option_mapping]: 196.6623ms
+[2025-08-16 13:35:14.831209600 +08:00 INFO] [future_option_mapping]: 86.8438ms
+[2025-08-16 13:35:16.831955900 +08:00 INFO] [get inventories] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" }
+[2025-08-16 13:35:16.864308500 +08:00 INFO] [inventory_result]: 32.2956ms
+[2025-08-16 13:35:16.865430500 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Sell, stock_no: "2881", price_type: Market, price: None, quantity: 495000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:35:16.901602500 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "2303", price_type: Limit, price: Some("46.5"), quantity: 2000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:35:16.943580500 +08:00 INFO] [place_order]: 42.0544ms
+[2025-08-16 13:35:16.955312900 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "1101", price_type: Limit, price: Some("23.7"), quantity: 1000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:35:17.019092 +08:00 INFO] [place_order]: 62.7803ms
+[2025-08-16 13:36:05.206401500 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:36:05.241747100 +08:00 INFO] this account require 2fa
+[2025-08-16 13:36:05.322399500 +08:00 INFO] [future_option_mapping]: 49.9079ms
+[2025-08-16 13:36:05.350128900 +08:00 INFO] [future_option_mapping]: 23.5875ms
+[2025-08-16 13:36:05.499731 +08:00 INFO] [future_option_mapping]: 148.6273ms
+[2025-08-16 13:36:05.644658100 +08:00 INFO] [future_option_mapping]: 112.7578ms
+[2025-08-16 13:36:07.261377500 +08:00 INFO] [get inventories] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" }
+[2025-08-16 13:36:07.296428300 +08:00 INFO] [inventory_result]: 35.0077ms
+[2025-08-16 13:36:07.297281200 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Sell, stock_no: "2881", price_type: Market, price: None, quantity: 495000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:36:07.327853200 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "2303", price_type: Limit, price: Some("46.5"), quantity: 2000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:36:07.358021 +08:00 INFO] [place_order]: 30.05ms
+[2025-08-16 13:36:07.362366600 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "1101", price_type: Limit, price: Some("23.7"), quantity: 1000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:36:07.404703500 +08:00 INFO] [place_order]: 42.5303ms
+[2025-08-16 13:39:04.298401400 +08:00 INFO] [login] personal_id="58581758"
+[2025-08-16 13:39:04.328932200 +08:00 INFO] this account require 2fa
+[2025-08-16 13:39:04.408213100 +08:00 INFO] [future_option_mapping]: 48.4139ms
+[2025-08-16 13:39:04.438349100 +08:00 INFO] [future_option_mapping]: 26.7951ms
+[2025-08-16 13:39:04.553978800 +08:00 INFO] [future_option_mapping]: 114.0883ms
+[2025-08-16 13:39:04.655911500 +08:00 INFO] [future_option_mapping]: 91.8131ms
+[2025-08-16 13:39:06.853097100 +08:00 INFO] [get inventories] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" }
+[2025-08-16 13:39:06.886017800 +08:00 INFO] [inventory_result]: 32.8676ms
+[2025-08-16 13:39:06.886883100 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Sell, stock_no: "2881", price_type: Market, price: None, quantity: 495000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:39:06.917566400 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "2303", price_type: Limit, price: Some("46.5"), quantity: 2000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:39:06.946130100 +08:00 INFO] [place_order]: 28.6546ms
+[2025-08-16 13:39:06.947190100 +08:00 INFO] [place_order] account=Account { branch_no: "20203", account: "7900015", account_type: "stock", name: "test" },order=Order { oxtp: NewOrder, market_type: Common, sess: None, date: None, buy_sell: Buy, stock_no: "1101", price_type: Limit, price: Some("23.7"), quantity: 1000, time_in_force: ROD, order_type: Stock, user_def: None }, is_async=false
+[2025-08-16 13:39:06.976558300 +08:00 INFO] [place_order]: 29.3986ms
