@@ -1,0 +1,106 @@
+[2025-07-26 19:34:27,420:ERROR] TopTrader: argument 'personal_id': 'NoneType' object cannot be converted to 'PyString'
+[2025-07-26 19:43:44,901:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:43:44,913:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:45:35,670:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:45:35,684:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:46:13,280:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:46:13,295:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:48:49,040:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Cert Subject and ID error,
+  data: None
+}
+[2025-07-26 19:48:49,050:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:49:34,872:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:49:34,887:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:50:32,989:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:50:33,004:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:52:51,607:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:52:51,623:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:53:34,501:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Cert Subject and ID error,
+  data: None
+}
+[2025-07-26 19:53:34,518:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:54:41,349:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:54:41,364:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 19:55:39,261:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 19:55:39,598:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 20:00:28,620:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Cert Subject and ID error,
+  data: None
+}
+[2025-07-26 20:00:28,639:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 20:00:53,101:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Cert Subject and ID error,
+  data: None
+}
+[2025-07-26 20:00:53,120:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 20:03:24,404:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 20:03:24,433:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-26 20:20:50,656:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-26 20:20:50,701:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證
+[2025-07-27 16:54:32,768:INFO] TopTrader: 登入回報:
+Result {
+  is_success: False,
+  message: Login Error, 請輸入正確帳號[53521100],
+  data: None
+}
+[2025-07-27 16:54:32,801:ERROR] TopTrader: Login Error, 尚未登入，無法產生信任認證

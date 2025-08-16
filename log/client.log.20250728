@@ -1,0 +1,6 @@
+[2025-07-28 20:38:14.090180600 +08:00 INFO] [login] personal_id="58581758"
+[2025-07-28 20:38:14.372702900 +08:00 INFO] this account require 2fa
+[2025-07-28 20:38:14.490668 +08:00 INFO] [future_option_mapping]: 74.7184ms
+[2025-07-28 20:38:14.545399200 +08:00 INFO] [future_option_mapping]: 35.5029ms
+[2025-07-28 20:38:14.751591200 +08:00 INFO] [future_option_mapping]: 195.9737ms
+[2025-07-28 20:38:14.965201 +08:00 INFO] [future_option_mapping]: 134.2023ms
